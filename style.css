@@ -1,6 +1,14 @@
 header{
     font-size: xx-large;
-    font: bold;
     background-color: grey;
     padding: 50px;
+}
+
+#submitButton {
+    color: darkolivegreen;
+    align-content: center;
+}
+
+#monthlyCosts{
+    background-color: darkred;
 }

@@ -15,14 +15,26 @@
     </head>
     <header>Salary Calculator</header>
     <body>
-        <h1>Add Employee</h1>
+        <h1>Add Employee:</h1>
         <input type="text" placeholder="First Name" id="firstName">
         <input type="text" placeholder="Last Name" id="lastName">
         <input type="text" placeholder="ID" id="title">
         <input type="text" placeholder="Title" id="id">
         <input type="text" placeholder="Annual Salary" id="annualSalary">
-   
-        <button></button>
+        <br>
+        <button id="submitButton">Submit</button>
+        <h1>Employees:</h1>
+        <table id=employees style="width:75%">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </table>
+
+        <h1>Total Monthly Costs: <span id=monthlyCosts></span></h1>
         
         
     </body>
