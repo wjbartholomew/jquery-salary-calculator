@@ -9,6 +9,10 @@ header{
     align-content: center;
 }
 
-#monthlyCosts{
+.monthlyCostsHigh{
     background-color: darkred;
+}
+
+.monthlyCostsLow{
+    background-color: green;
 }
